@@ -1,0 +1,29 @@
+{
+  "name": "cleancode-cleanarchitecture",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc:init": "tsc --init",
+    "build": "tsc",
+    "test": "tsc && jest dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luizpaulolppa/cleancode-cleanarchitecture.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luizpaulolppa/cleancode-cleanarchitecture/issues"
+  },
+  "homepage": "https://github.com/luizpaulolppa/cleancode-cleanarchitecture#readme",
+  "dependencies": {
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "jest": "^26.6.3"
+  }
+}
